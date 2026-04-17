@@ -78,7 +78,7 @@ export const Lobby = ({ defaultGameID }) => {
           <p className="intro">
             Play horsepaste online across multiple devices on a shared board. To
             create a new game or join an existing game, enter a game identifier
-            and click 'GO'. -JessC test 14
+            and click 'GO'. -JessC test 15
           </p>
           <input
             type="text"
