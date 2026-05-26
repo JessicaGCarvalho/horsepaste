@@ -20,7 +20,7 @@ jobs:
               env:
                 PORTER_APP_NAME: horsepaste
                 PORTER_CLUSTER: "1"
-                PORTER_DEPLOYMENT_TARGET_ID: 70fb41ff-1e9b-4650-a99e-5ad64a221c3b
+                PORTER_DEPLOYMENT_TARGET_ID: 6a099c69-ec4c-44c5-b9cd-8cac2a9abcbe
                 PORTER_HOST: https://jess.withporter.run
                 PORTER_PROJECT: "1"
                 PORTER_TAG: ${{ steps.vars.outputs.sha_short }}
