@@ -20,8 +20,8 @@ jobs:
               env:
                 PORTER_APP_NAME: frontend
                 PORTER_CLUSTER: "1"
-                PORTER_DEPLOYMENT_TARGET_ID: 438cb20d-a04c-4920-b159-903ed113dd85
+                PORTER_DEPLOYMENT_TARGET_ID: aeb4156f-e387-452b-a30d-ad3d747af8ab
                 PORTER_HOST: https://jess.withporter.run
                 PORTER_PROJECT: "1"
                 PORTER_TAG: ${{ steps.vars.outputs.sha_short }}
-                PORTER_TOKEN: ${{ secrets.PORTER_APP_1_1211733246 }}
+                PORTER_TOKEN: ${{ secrets.PORTER_APP_1_3 }}
