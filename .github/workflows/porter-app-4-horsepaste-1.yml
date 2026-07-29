@@ -2,7 +2,7 @@
     push:
         branches:
             - main
-name: Deploy to horsepaste
+name: Deploy to horsepaste-1
 jobs:
     porter-deploy:
         runs-on: ubuntu-latest
@@ -18,10 +18,10 @@ jobs:
               timeout-minutes: 30
               run: porter apply
               env:
-                PORTER_APP_NAME: horsepaste
-                PORTER_CLUSTER: "1"
-                PORTER_DEPLOYMENT_TARGET_ID: 8a66164a-0528-4631-bdd2-0734464ea580
+                PORTER_APP_NAME: horsepaste-1
+                PORTER_CLUSTER: "4"
+                PORTER_DEPLOYMENT_TARGET_ID: f4a76a11-470d-4ec8-b59d-2a9820e4ab2a
                 PORTER_HOST: https://jess.withporter.run
                 PORTER_PROJECT: "1"
                 PORTER_TAG: ${{ steps.vars.outputs.sha_short }}
-                PORTER_TOKEN: ${{ secrets.PORTER_APP_1_1 }}
+                PORTER_TOKEN: ${{ secrets.PORTER_APP_1_6 }}
